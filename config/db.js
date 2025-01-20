@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://localhost:27017/productDb';
+const URI = 'mongodb+srv://nyadav07102005:niharika@niharika.2waja.mongodb.net/';
 
 function connectDb() {
     mongoose.connect(URI)
